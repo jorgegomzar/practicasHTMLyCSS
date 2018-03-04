@@ -1,0 +1,69 @@
+html{
+	font-size: 18px;
+	font-family: 'Quattrocento', serif;
+}
+article > h3 + p {
+	font-family: 'Quattrocento Sans', sans-serif;
+	display: block;
+	font-weight: bold;
+	font-size: 1.5em;
+	letter-spacing: .5rem;
+}
+#principal {
+	background-color: #b9b6b6;
+	display: block;
+}
+h1 {
+	text-transform: uppercase;
+	text-align: center;
+	color: rgb(63, 110, 128);
+	display: block;
+	font-size: 2rem;
+	font-weight: bold;
+}
+h2 {
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 1.8em;
+	color: hsl(194, 55%, 66%);
+}
+h3 {
+	background-color: #333232;
+	color:  white;
+	font-size: 1.8rem;
+}
+#pop , #rock {
+	background-color: antiquewhite;
+}
+article > p > strong {
+	font-variant: small-caps;
+}
+article > p > strong {
+	color: #aa4326;
+}
+.artista {
+	color: #34802f;
+}
+.cancion {
+	color: #713080;
+}
+em {
+	color: #4c94a9;
+	font-style: normal;
+	font-weight: bold;
+}
+q {
+	color: #4c94a9;
+	font-style: italic;
+	font-weight: bold;
+}
+p {
+	text-align: justify;
+}
+p, address {
+	font-family: 'Quattrocento Sans', sans-serif;
+}
+address {
+	text-align: right;
+	color: rgb(70, 70, 70)
+}
